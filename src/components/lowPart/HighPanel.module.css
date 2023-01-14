@@ -1,0 +1,21 @@
+.highPanelContainer {
+    display: flex;
+    width: 260px;
+    height: 70px;
+    border: 40px;
+    background-color: grey;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.highBtn {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+}

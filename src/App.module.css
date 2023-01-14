@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    max-width: 1440px;
+    min-height: 880px;
+    border: 1px solid gray;
+}
+
+.displayActions {
+    height: 360px;
+    background-color: antiquewhite;
+}
+
+.calcPanel {
+    display: flex;
+    height: 507px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}

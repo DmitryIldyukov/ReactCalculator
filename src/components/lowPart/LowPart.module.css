@@ -1,0 +1,13 @@
+.lowPartContainer {
+    position: relative;
+    display: flex;
+    width: 355px;
+    height: 430px;
+    justify-content: space-between;
+}
+
+.lowPartLeftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

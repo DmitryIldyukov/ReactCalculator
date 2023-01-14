@@ -1,0 +1,19 @@
+.actionsContainer {
+    position: relative;
+    display: flex;
+    width: 70px;
+    height: 430px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actionBtn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: none;
+    /*border: none;*/
+    font-size: 26px;
+    font-family: Poppins;
+    font-weight: 600;
+}

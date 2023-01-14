@@ -1,0 +1,20 @@
+.numbers {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 340px;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    background: none;
+    border-radius: 50%;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+}
