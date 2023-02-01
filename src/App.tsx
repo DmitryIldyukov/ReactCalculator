@@ -9,7 +9,7 @@ function App() {
 
             </div>
             <div className={styles.calcPanel}>
-               <LowPart />
+                <LowPart />
             </div>
         </div>
     );

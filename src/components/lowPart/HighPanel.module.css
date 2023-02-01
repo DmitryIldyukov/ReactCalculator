@@ -2,11 +2,11 @@
     display: flex;
     width: 260px;
     height: 70px;
-    border: 40px;
-    background-color: grey;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
     border-radius: 40px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .highBtn {
@@ -18,4 +18,10 @@
     font-family: Poppins;
     font-size: 26px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.highBtn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
 }
